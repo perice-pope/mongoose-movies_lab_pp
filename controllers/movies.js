@@ -44,4 +44,5 @@ function create(req, res) {
     // res.redirect('/movies');
     res.redirect(`/movies/${movie._id}`);
   });
+
 }
